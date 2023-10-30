@@ -40,3 +40,77 @@
 .read-the-docs {
   color: #888;
 }
+
+form {
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 30px;
+  box-shadow: 0px 2px 12px 2px #d6d6d6a6;
+}
+.input-field {
+  position: relative;
+  margin-bottom: 34px;
+}
+.input-field input {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  outline: 0;
+  padding: 8px 12px;
+  height: 48px;
+}
+
+.input-field label {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 8px;
+  display: block;
+}
+.input-field p {
+  color: red;
+  text-align: left;
+  position: absolute;
+  bottom: -26px;
+  margin: 0;
+}
+
+.plus-button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 8px 20px;
+  background: #777777;
+  color: white;
+  font-size: 20px;
+  max-height: 48px;
+  border-radius: 0 4px 4px 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  text-align: left;
+  margin-left: 8px;
+  margin-bottom: 20px;
+}
+
+ul li .minus-button {
+  font-size: 18px;
+  border-radius: 6px;
+  background: #777777;
+  color: white;
+  padding: 3px 10px;
+  margin-left: 10px;
+}
+.submit {
+  width: 100%;
+  margin-top: 30px;
+  background: #5465ff;
+  color: white;
+  border-radius: 4px;
+  height: 48px;
+}
